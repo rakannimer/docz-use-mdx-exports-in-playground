@@ -1,0 +1,25 @@
+---
+name: Getting Started
+route: /
+---
+
+Hello
+
+export const myVariable = "Yay!";
+
+export function b() {
+  return "Hello";
+}
+
+# Hello, world!
+
+<h2>{myVariable}</h2>
+
+import { Playground } from "docz";
+
+<Playground>
+  <div>
+    {myVariable}
+    {b()}
+  </div>
+</Playground>
